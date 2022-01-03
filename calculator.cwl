@@ -141,7 +141,7 @@
 \SCALARMATRIXPRODUCT{num}(a11...a33)(cmd11...cmd33)
 \MATRIXVECTORPRODUCT(a11...a33)(x,y,z)(cmd1,cmd2,cmd3)
 \MATRIXPRODUCT(a11...a33)(b11...b33)(cmd11...cmd33)
-\DETERMINANT{a11...a33){cmd}
+\DETERMINANT(a11...a33){cmd}
 \INVERSEMATRIX(a11...a33)(cmd11...cmd33)
 \MATRIXABSVALUE(a11...a33)(cmd11...cmd33)
 \SOLVELINEARSYSTEM(a11...a33)(b1,b2,b3)(cmd1,cmd2,cmd3)
