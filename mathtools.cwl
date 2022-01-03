@@ -45,7 +45,7 @@
 \mathmbox{math}
 \mathrlap{math}
 \mathrlap[mathstyle]{math}
-\mathtoolset{key val list}
+\mathtoolsset{key val list}
 \newtagform{name}[inner_format]{left}{right}
 \newtagform{name}{left}{right}
 \overbrace{arg}
