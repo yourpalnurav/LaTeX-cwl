@@ -1,26 +1,29 @@
-Usage
------
+# LaTeX CWL
+
+This is a fork of https://github.com/LaTeXing/LaTeX-cwl, which does not seem to be maintained anymore. The current repository is used by [LaTeX-Workshop](https://github.com/James-Yu/LaTeX-Workshop/) to provide autocompletion of LaTeX commands in VS Code. If anyone finds it useful, I am ready to maintain this fork and merge PR to close the issues at https://github.com/LaTeXing/LaTeX-cwl/issues.
+
+## Original README
+
+## Usage
 
 LaTeX-cwl is a Sublime Text plugin and used by the LaTeX plugin [LaTeXing](http://www.latexing.com). The plugin supplies cwl files which are used for the autocompletion of LaTeX commands.
 
 ![LaTeXing with LaTeX-cwl files](http://www.latexing.com/files/latexing.com/images/screenshots/autocomplete_1.jpg)
 
-Installation
-------------
+## Installation
 
-### Using Package Control:
+### Using Package Control
 
 * Bring up the Command Palette (Command+Shift+P on OS X, Control+Shift+P on Linux/Windows).
 * Select Package Control: Install Package.
 * Select LaTeX-cwl to install.
 
-### Not using Package Control:
+### Not using Package Control
 
 * Save files to the `Packages/LaTeX-cwl` directory, then relaunch Sublime:
   * Linux: `~/.config/sublime-text-2|3/Packages/LaTeX-cwl`
   * Mac: `~/Library/Application Support/Sublime Text 2|3/Packages/LaTeX-cwl`
   * Windows: `%APPDATA%/Sublime Text 2|3/Packages/LaTeX-cwl`
-
 
 ## Donating
 
