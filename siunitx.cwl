@@ -15,12 +15,23 @@
 \SI[options]{value}{unit commands}
 \SI{value}[pre-unit]{unit commands}
 \SI[options]{value}[pre-unit]{unit commands}
+\qty{value}{unit commands}
+\qty[options]{value}{unit commands}
 
 \numlist[options]{numbers}
 \numrange[options]{numbers}{number2}
+\numproduct[options]{numbers}
 
 \SIlist[options]{numbers}{unit}
 \SIrange[options]{number1}{number2}{unit}
+
+\qtylist[options]{numbers}{unit}
+\qtyrange[options]{number1}{number2}{unit}
+\qtyproduct[options]{numbers}{unit}
+
+\complexqty[options]{number}{unit}
+\complexnum{number}
+\complexnum[option]{number}
 
 \tablenum[options]{number}
 
@@ -37,6 +48,9 @@
 # Units with no values
 \si{unit}
 \si[options]{unit}
+
+\unit{unit}
+\unit[options]{unit}
 
 #
 # pre-defined units, prefixes and powers
