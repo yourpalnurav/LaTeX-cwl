@@ -1,9 +1,9 @@
 # natbib package
 # author: Jan Sundermeyer 12/2009
 \citet{keylist}#c
-\citet[prefix]{keylist}
+\citet[postfix]{keylist}
 \citep{keylist}#c
-\citep[prefix]{keylist}
+\citep[postfix]{keylist}
 \citep[postfix][prefix]{keylist}
 \citet*{keylist}#c
 \citep*{keylist}#c
@@ -20,9 +20,9 @@
 \citeyear{keylist}#c
 \citeyearpar{keylist}#c
 \Citet{keylist}#c
-\Citet[prefix]{keylist}
+\Citet[postfix]{keylist}
 \Citep{keylist}#c
-\Citep[prefix]{keylist}
+\Citep[postfix]{keylist}
 \Citep[postfix][prefix]{keylist}
 \Citet*{keylist}#c
 \Citep*{keylist}#c
