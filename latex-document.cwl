@@ -26,7 +26,8 @@
 \begin{figure}[placement]
 \begin{figure*}
 \begin{figure*}[placement]
-\begin{filecontents}
+\begin{filecontents}[option]{filename}
+\begin{filecontents*}[option]{filename}
 \begin{flushleft}
 \begin{flushright}
 \begin{itemize}\item
@@ -70,6 +71,7 @@
 \end{figure}
 \end{figure*}
 \end{filecontents}
+\end{filecontents*}
 \end{flushleft}
 \end{flushright}
 \end{itemize}
