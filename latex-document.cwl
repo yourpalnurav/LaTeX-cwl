@@ -26,6 +26,8 @@
 \begin{figure}[placement]
 \begin{figure*}
 \begin{figure*}[placement]
+\begin{filecontents}{filename}
+\begin{filecontents*}{filename}
 \begin{filecontents}[option]{filename}
 \begin{filecontents*}[option]{filename}
 \begin{flushleft}
