@@ -5,13 +5,44 @@
 #keyvals:\documentclass/exam
 addpoints
 answers
+10pt
 11pt
 12pt
+a0paper
+a1paper
+a2paper
+a3paper
 a4paper
 a5paper
+a6paper
+b0paper
+b1paper
+b2paper
+b3paper
+b4paper
 b5paper
-letterpapaer
+b6paper
+c0paper
+c1paper
+c2paper
+c3paper
+c4paper
+c5paper
+c6paper
+b0j
+b1j
+b2j
+b3j
+b4j
+b5j
+b6j
+ansiapaper
+ansibpaper
+ansicpaper
+ansidpaper
+ansiepaper
 legalpaper
+letterpaper
 executivepaper
 landscape
 #endkeyvals
@@ -66,8 +97,8 @@ landscape
 #
 \fillin
 \fillin[answer]
-\fillin[answer][lenght]
-\fillinlinelenght
+\fillin[answer][length]
+\fillinlinelength
 #
 \uplevel{text}
 \fullwidth{text}
@@ -121,6 +152,7 @@ landscape
 #
 \pointsinmargin#*
 \pointsinrightmargin#*
+\pointsinleftmargin#*
 \nopointsinmargin#*
 \nopointsinrightmargin#*
 \pointsdroppedatright#*
@@ -193,6 +225,7 @@ landscape
 \gradetable
 \gradetable[v or h]
 \gradetable[v or h][questions or pages]
+\multirowgradetable{numrows}[questions or pages]
 \pointtable
 \pointtable[v or h]
 \pointtable[v or h][questions or pages]
@@ -246,11 +279,13 @@ landscape
 #
 \vqword{text}
 \vpgword{text}
+\vpword{text}
 \vsword{text}
 \vtword{text}
 #
 \hqword{text}
 \hpgword{text}
+\hpword{text}
 \hsword{text}
 \htword{text}
 #
@@ -307,6 +342,7 @@ landscape
 \footrule
 \firstpagefootrule
 \runningfootrule
+\thepage
 \numpages
 \iflastpage{text if it isn't last page}{text if it's last page}#*
 \oddeven{text on odd pages}{text on even pages}
