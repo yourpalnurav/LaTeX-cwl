@@ -138,7 +138,7 @@ landscape
 \points#*
 \pointname{text}
 \pointpoints{Singular Text}{Plural Text}
-\marknotpoints#*
+\marksnotpoints#*
 \marginpointname{text}
 #
 \pointformat{format}#*
